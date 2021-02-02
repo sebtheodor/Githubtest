@@ -12,3 +12,14 @@ p{
 	font-family:cursive;
 	color: green;
 }
+
+section{
+	margin: 0;
+	margin: auto;
+	width: 1160px;
+}
+
+section > img{
+	width: 350px;
+	height: 350px;
+}
