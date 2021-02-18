@@ -11,13 +11,22 @@ html, body{
 	scroll-behavior: smooth;
 }
 
+header {
+	position: relative;
+	z-index: 1;
+}
+
 body{
-	max-width: 1000px;
+	max-width: 1100px;
 	height: 100%;
 }
 
-.full-vert{
+.full-width{
 	width: 100%;
+}
+
+.full-height{
+	height: 100%;
 }
 
 nav{
@@ -26,7 +35,7 @@ nav{
 	position: fixed;
 	width: 100%;
 	height: 75px;
-	box-shadow: 1px 2px 5px #aaa;
+	box-shadow: 1px 1px 2px #aaa;
 }
 
 ul{
@@ -35,6 +44,8 @@ ul{
 	align-items: center;
 	height: 75px;
 	margin-right: 120px;
+	background-color: #fff;
+	position: relative;
 }
 
 li a {
@@ -44,15 +55,91 @@ li a {
 	font-family: "montserrat";
 	padding: 10px 20px;
 	color: #777;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	height: 100%;
 	width: 100%;
+	z-index: -1;
 }
 
 article{
-	margin-top: 120px;
 	font-family: "montserrat";
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+h2{
+	font-family: "montserrat";
+	font-size: 28px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	width: 300px;
+}
+
+hr{
+	height: 2px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+footer{
+	font-family: "montserrat";
+	text-align: center;
+	margin-top: 100px;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 600px;
+}
+
+.logo-img{
+	display: block;
+	background-color: green;
+	height: 120px;
+	width: 300px;
+}
+
+.code{
+	display: flex;
+
+	width: 400px;
+	background-color: #eee;
+	min-height: 40px;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.flex{
+	display: flex;
+}
+
+.center{
+	align-items: center;
+	justify-content: center;
+}
+
+.hcenter{
+	justify-content: center;
+}
+
+.vcenter{
+	align-items: center;
 }
