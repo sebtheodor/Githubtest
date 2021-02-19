@@ -21,10 +21,12 @@ body{
 	height: 100%;
 }
 
+/* Sætter elementet til at fylde hele siden i bredden */
 .full-width{
 	width: 100%;
 }
 
+/* Sætter elementet til at fylde hele siden i højden */
 .full-height{
 	height: 100%;
 }
@@ -172,15 +174,18 @@ footer{
 	display: flex;
 }
 
+/* centrere elementet i forehold til dets størelse KRÆVER FLEX */
 .center{
 	align-items: center;
 	justify-content: center;
 }
 
+/* centrere elementet i forehold til dets bredde KRÆVER FLEX */
 .hcenter{
 	justify-content: center;
 }
 
+/* centrere elementet i forehold til dets højde KRÆVER FLEX */
 .vcenter{
 	align-items: center;
 }
