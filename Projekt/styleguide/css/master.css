@@ -184,3 +184,18 @@ footer{
 .vcenter{
 	align-items: center;
 }
+
+.anButton{
+	background-color: #AF8447;
+	height: 30px;
+	width: 150px;
+	border: black;
+	radius: 20px;
+}
+
+.meButton{
+	background-color: #AF8447;
+	height: 50px;
+	width: 100px;
+	border: black;
+}
