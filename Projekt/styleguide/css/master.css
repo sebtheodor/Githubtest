@@ -191,6 +191,7 @@ footer{
 	width: 150px;
 	border: black;
 	radius: 20px;
+	margin-bottom: 20px;
 }
 
 .meButton{
@@ -198,34 +199,39 @@ footer{
 	height: 50px;
 	width: 100px;
 	border: black;
+	margin-bottom: 20px;
 }
 
 .sButton{
 	background-color: #AF8447;
-	height: 30px;
-	width: 150px;
+	height: 50px;
+	width: 50px;
 	border: black;
 	radius: 20px;
+	margin-bottom: 20px;
 }
 
 .besButton{
 	background-color: #AF8447;
-	height: 50px;
-	width: 100px;
+	height: 70px;
+	width: 130px;
 	border: black;
+	margin-bottom: 20px;
 }
 
 .soButton{
 	background-color: #AF8447;
 	height: 30px;
-	width: 150px;
+	width: 100px;
 	border: black;
 	radius: 20px;
+	margin-bottom: 20px;
 }
 
 .beButton{
 	background-color: #AF8447;
-	height: 50px;
-	width: 100px;
+	height: 100px;
+	width: 200px;
 	border: black;
+	margin-bottom: 20px;
 }
