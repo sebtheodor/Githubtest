@@ -164,7 +164,12 @@ footer{
 	background: #AF8447;
 }
 
-
+.icon{
+	font-size: 70px;
+	height: 70px;
+	width: 70px;
+	margin-bottom: 20px;
+}
 
 
 
