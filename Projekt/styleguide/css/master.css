@@ -99,6 +99,17 @@ footer{
 	width: 600px;
 }
 
+.code{
+	display: flex;
+
+	width: 400px;
+	background-color: #eee;
+	min-height: 60px;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
 .logo-img{
 	display: block;
 	background-color: green;
@@ -106,22 +117,45 @@ footer{
 	width: 300px;
 }
 
-.code{
-	display: flex;
-
-	width: 400px;
-	background-color: #eee;
-	min-height: 40px;
+.farve1{
+	height: 60px;
+	width: 300px;
+	margin-bottom: 20px;
 	border-radius: 4px;
-	padding: 10px 20px;
+
+	background-color: #000;
 }
 
+.farve2{
+	height: 60px;
+	width: 300px;
+	margin-bottom: 20px;
+	border-radius: 4px;
 
+	background: #747474;
+}
 
+.farve3{
+	height: 60px;
+	width: 300px;
+	margin-bottom: 20px;
+	border-radius: 4px;
 
+	background: #EBEBEB;
+}
 
+.farve4{
+	height: 60px;
+	width: 300px;
+	margin-bottom: 20px;
+	border-radius: 4px;
 
+	background: #AF8447;
+}
 
+.farver aside code{
+	width: 180px;
+}
 
 
 
