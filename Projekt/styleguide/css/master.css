@@ -190,7 +190,7 @@ footer{
 	height: 30px;
 	width: 150px;
 	border: black;
-	radius: 20px;
+	border-radius: 30px;
 	margin-bottom: 20px;
 }
 
@@ -207,7 +207,7 @@ footer{
 	height: 50px;
 	width: 50px;
 	border: black;
-	radius: 20px;
+	border-radius: 30px;
 	margin-bottom: 20px;
 }
 
@@ -217,6 +217,7 @@ footer{
 	width: 130px;
 	border: black;
 	margin-bottom: 20px;
+	border-radius: 30px;
 }
 
 .soButton{
@@ -226,6 +227,7 @@ footer{
 	border: black;
 	radius: 20px;
 	margin-bottom: 20px;
+	border-radius: 30px;
 }
 
 .beButton{
@@ -234,4 +236,5 @@ footer{
 	width: 200px;
 	border: black;
 	margin-bottom: 20px;
+	border-radius: 30px;
 }
