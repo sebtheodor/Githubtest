@@ -75,6 +75,10 @@ article{
 	width: 100%;
 }
 
+aside{
+	width: 400px;
+}
+
 h2{
 	font-family: "montserrat";
 	font-size: 28px;
@@ -104,7 +108,7 @@ footer{
 
 	width: 400px;
 	background-color: #eee;
-	min-height: 60px;
+	min-height: 70px;
 	border-radius: 4px;
 	padding: 10px 20px;
 	margin-bottom: 20px;
@@ -112,14 +116,21 @@ footer{
 
 .logo-img{
 	display: block;
-	background-color: green;
-	height: 120px;
-	width: 300px;
+	height: 70px;
+	background-image: url(../img/simple-logo.png);
+	background-repeat: no-repeat;
+}
+
+.logo-img-text{
+	display: block;
+	height: 70px;
+	background-image: url(../img/logo-med-text.png);
+	background-repeat: no-repeat;
 }
 
 .farve1{
-	height: 60px;
-	width: 300px;
+	height: 70px;
+	width: 400px;
 	margin-bottom: 20px;
 	border-radius: 4px;
 
@@ -127,8 +138,8 @@ footer{
 }
 
 .farve2{
-	height: 60px;
-	width: 300px;
+	height: 70px;
+	width: 400px;
 	margin-bottom: 20px;
 	border-radius: 4px;
 
@@ -136,8 +147,8 @@ footer{
 }
 
 .farve3{
-	height: 60px;
-	width: 300px;
+	height: 70px;
+	width: 400px;
 	margin-bottom: 20px;
 	border-radius: 4px;
 
@@ -145,16 +156,12 @@ footer{
 }
 
 .farve4{
-	height: 60px;
-	width: 300px;
+	height: 70px;
+	width: 400px;
 	margin-bottom: 20px;
 	border-radius: 4px;
 
 	background: #AF8447;
-}
-
-.farver aside code{
-	width: 180px;
 }
 
 
