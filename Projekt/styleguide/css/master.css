@@ -196,7 +196,7 @@ footer{
 	width: 150px;
 	border: black;
 	border-radius: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .meButton{
@@ -204,7 +204,7 @@ footer{
 	height: 50px;
 	width: 100px;
 	border: black;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .sButton{
@@ -213,7 +213,7 @@ footer{
 	width: 50px;
 	border: black;
 	border-radius: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .besButton{
@@ -221,7 +221,7 @@ footer{
 	height: 70px;
 	width: 130px;
 	border: black;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	border-radius: 30px;
 }
 
@@ -230,8 +230,7 @@ footer{
 	height: 30px;
 	width: 100px;
 	border: black;
-	radius: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	border-radius: 30px;
 }
 
@@ -240,6 +239,6 @@ footer{
 	height: 100px;
 	width: 200px;
 	border: black;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	border-radius: 30px;
 }
