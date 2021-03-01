@@ -1,3 +1,20 @@
 body {
   background-color: #F7F7F7;
 }
+
+div gallary{
+  margin: 10px;
+  float: left;
+  width: 180px;
+}
+
+img {
+  width: 278px;
+  height: auto;
+  border-radius: 4px;
+}
+
+div beskrivelse{
+  padding: 15px;
+  text-align: center;
+}
