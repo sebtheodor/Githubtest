@@ -49,3 +49,39 @@ div.beskrivelse{
   padding: 15px;
   text-align: center;
 }
+.head{
+  grid-area: head;
+  width: 100%;
+}
+
+.search{
+  grid-area: search;
+  background-color: #ffffff;
+  width: 60%;
+}
+
+.indhold{
+  grid-area: indhold;
+  width: 80%;
+  align-content: center;
+
+}
+
+
+.foot{
+grid-area: foot;
+background-color: #1E1E1E;
+width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "head head "
+    "search search "
+    "indhold indhold  "
+    "foot  foot  ";
+
+  }
