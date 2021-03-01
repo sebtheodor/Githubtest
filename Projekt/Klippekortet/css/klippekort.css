@@ -8,8 +8,8 @@ div gallary{
   width: 180px;
 }
 
-img{
+img {
   width: 278px;
-  height: 156px;
+  height: auto;
   border-radius: 4px;
 }
