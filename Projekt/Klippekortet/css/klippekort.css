@@ -1,8 +1,17 @@
+.wrapper {
+    max-width: 100%;
+
+}
+
+.wrapper > * {
+    padding: 10px;
+}
+
 body {
   background-color: #F7F7F7;
 }
 
-h2 {
+h3 {
   font-family: "Segoe UI", regular;
   font-size: 22px;
   color: #AF8447;
@@ -20,7 +29,17 @@ div.gallary{
   background-color: #ffffff;
 }
 
-img {
+
+
+img.logo{
+  left: 155px;
+  top: 5px;
+  position: absolute;
+
+
+}
+
+img.gal {
   width: 278px;
   height: auto;
   border-radius: 4px;
