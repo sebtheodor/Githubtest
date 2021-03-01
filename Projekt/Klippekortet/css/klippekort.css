@@ -1,3 +1,9 @@
 body {
   background-color: #F7F7F7;
 }
+
+div gallary{
+  margin: 10px;
+  float: left;
+  width: 180px;
+}
