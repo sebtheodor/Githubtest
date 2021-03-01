@@ -7,3 +7,9 @@ div gallary{
   float: left;
   width: 180px;
 }
+
+img{
+  width: 278px;
+  height: 156px;
+  border-radius: 4px;
+}
