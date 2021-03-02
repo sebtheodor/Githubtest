@@ -4,21 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/klippekort.css">
+    <script src="https://kit.fontawesome.com/9464e3997a.js" crossorigin="anonymous" defer></script>
     <title>Klippekortet/forside</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="head">
-        <input type="text" id="search" name="search" size="100" placeholder="Søg">
+        <input type="text" id="search" name="search" size="100" placeholder="Søg"><button class="soeg" type="submit"><i class="fa fa-search"></i></button>
       </header>
 
 
       <main class="indhold">
         <input type="text" id="fnavn" name="fnavn" placeholder="Fornavn"size="25px"> <input type="text" id="enavn" name="enavn" placeholder="Efternavn"size="25px">
         <ul>
-          <li><input type="checkbox">Mand</li>
-          <li><input type="checkbox">Kvinde</li>
-          <li><input type="checkbox">Andet</li>
+          <li><input type="checkbox" id="køn">Mand</li>
+          <li><input type="checkbox" id="køn">Kvinde</li>
+          <li><input type="checkbox" id="køn">Andet</li>
         </ul>
         <input type="text" id="adresse" name="adresse" placeholder="Adresse" size="50px"><br>
         <input type="text" id="telf" name="telf" placeholder="Telefon Nummer"size="50px"><br>
