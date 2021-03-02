@@ -17,6 +17,34 @@ h3 {
   color: #AF8447;
 }
 
+li {
+  list-style: none;
+}
+
+.understreg{
+  color: #3A83F2;
+  text-decoration: underline;
+}
+
+input{
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-width: thin;
+  border-color: #707070;
+}
+
+.submit{
+  background-color: #5A8A5A;
+  border-radius: 4px;
+  height: 50px;
+  width: auto;
+  border: none;
+  color: white;
+  font-family: "Segoe UI","Regular";
+  font-size: 18px;
+}
+
 p{
   font-family: "Segoe UI", regular;
   font-size: 15px;
@@ -64,6 +92,8 @@ div.beskrivelse{
   grid-area: indhold;
   width: 80%;
   align-content: center;
+  background-color: #FFFFFF;
+  text-align: -webkit-center;
 
 }
 
