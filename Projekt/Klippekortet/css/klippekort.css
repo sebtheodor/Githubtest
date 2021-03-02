@@ -19,6 +19,20 @@ h3 {
 
 li {
   list-style: none;
+  display: inline-table;
+  margin-right: 80px;
+}
+
+.soeg{
+  margin-left: -50px;
+  width: 50px;
+  font-size: 23px;
+  height: 39px;
+  background-color: #2D241B;
+  color: #AF8447;
+  border-radius: 4px;
+  /* margin-right: 55px; */
+  border: none;
 }
 
 .understreg{
