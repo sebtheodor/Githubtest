@@ -17,9 +17,10 @@
       <main class="indhold">
         <input type="text" id="fnavn" name="fnavn" placeholder="Fornavn"size="25px"> <input type="text" id="enavn" name="enavn" placeholder="Efternavn"size="25px">
         <ul>
-          <li><input type="checkbox" id="køn">Mand</li>
-          <li><input type="checkbox" id="køn">Kvinde</li>
-          <li><input type="checkbox" id="køn">Andet</li>
+          <li><input type="checkbox" id="mand" value="Mand"><label for="mand">Mand</label></li>
+
+          <li><input type="checkbox" id="dame" value="Kvinde"><label for="dame">Kvinde</label></li>
+          <li><input type="checkbox" id="and" value="Andet"><label for="and">Andet</label></li>
         </ul>
         <input type="text" id="adresse" name="adresse" placeholder="Adresse" size="50px"><br>
         <input type="text" id="telf" name="telf" placeholder="Telefon Nummer"size="50px"><br>
@@ -29,7 +30,7 @@
 
         <button class="submit" type="submit" name="opret">Opret Konto</button>
 
-        <p><input type="checkbox" name="privacy" id="privat">Jeg accepterer Klippekortets <span class="understreg">vilkår og betingelser</span> og <span class="understreg">Persondataforordningen</span></p>
+        <p><input type="checkbox" name="privacy" id="privat"><label for="privat">Jeg accepterer Klippekortets <span class="understreg">vilkår og betingelser</span> og <span class="understreg">Persondataforordningen</span></label</p>
 
       </main>
 
