@@ -188,7 +188,7 @@ footer .follow a{
 
 /* Eksklusivt search.html css */
 
-aside div{
+aside .sorting{
 	background-color: #fff;
 	border-radius: 4px;
 	width: 180px;
@@ -446,12 +446,14 @@ aside input[type="checkbox"]{
 .pricetable{
 	background-color: white;
 	display: block;
-	height: 535px;
 	width: 735px;
 	border-radius: 4px;
 	padding: 5px;
 }
 
+.pricetable .menu{
+
+}
 
 .pricetable .menu select{
 	border-radius: 4px;
@@ -484,3 +486,102 @@ aside input[type="checkbox"]{
 	margin-bottom: 15px;
 }
 
+.price{
+	font-size: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 40px 0px;
+	border-top: 2px dashed #707070;
+}
+
+.price:first-child{
+	border: none;
+}
+
+.info-wrapper{
+	margin-left: 20px;
+	width: 355px;
+	margin-top: 40px;
+}
+
+.about-frisoer figure{
+	border-radius: 4px;
+	display: inline-block;
+
+}
+
+.about-frisoer figure img{
+	border-radius: 4px;
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+}
+
+figcaption{
+	font-size: 14px;
+	word-wrap: break-word;
+}
+
+.about-frisoer figcaption{
+	display: inline-block;
+	margin-left: 10px;
+	word-wrap: break-word;
+	font-size: 14px;
+}
+
+
+.timetable{
+	margin-top: 30px;
+	background-color: white;
+	text-align: center;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.timetable h3{
+	color: #af8447;
+}
+
+.timetable p{
+	line-height: 22px;
+	font-size: 16px;
+}
+
+.anmeldelser{
+	margin-top: 30px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: right;
+	margin-bottom: 40px;
+}
+
+.anmeldelser p{
+	margin-top: 20px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.anmeldelser .stars{
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 10px;
+	color: #ffdc7b;
+}
+
+.anmeldelser a{
+	display: block;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 150px;
+	text-decoration: none;
+	font-style: italic;
+	width: 140px;
+	padding: 5px;
+}
+
+.anmeldelser iframe{
+	display: block;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
