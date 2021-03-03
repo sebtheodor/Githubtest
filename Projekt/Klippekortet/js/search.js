@@ -8,19 +8,6 @@ function validateForm() {
   }
 }
 
-const citys = ['5100', '5250', '8100', '7100', '2600', '2625', '2200', '2400' ];
-
-document.getElementById('fname').addEventListener('input', (e)=>{
-
-  let citysArray = [];
-
-  console.log(e.target.value){
-    citysArray = citys.filter(city => city.toLowerCase().includes(e.target.value));
-  }
-
-  console.log(citysArray);
-})
-
 
 const citys = ['5100', '5250', '8100', '7100', '2600', '2625', '2200', '2400' ];
 
