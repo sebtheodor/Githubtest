@@ -82,8 +82,10 @@ div.gallary{
 img.logo{
   left: 155px;
   position: absolute;
+}
 
-
+img.banner{
+  width: 100%;
 }
 
 img.gal {
