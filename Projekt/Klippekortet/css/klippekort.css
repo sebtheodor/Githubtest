@@ -81,7 +81,6 @@ div.gallary{
 
 img.logo{
   left: 155px;
-  top: 5px;
   position: absolute;
 
 
@@ -100,6 +99,8 @@ div.beskrivelse{
 .head{
   grid-area: head;
   width: 100%;
+  position: relative;
+  bottom: 4%;
 }
 
 .search{
