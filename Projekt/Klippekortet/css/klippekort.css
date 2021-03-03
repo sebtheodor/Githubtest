@@ -46,6 +46,8 @@ input{
   padding: 10px;
   border-width: thin;
   border-color: #707070;
+  position: relative;
+  left: 10%;
 }
 
 .submit{
