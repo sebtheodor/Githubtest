@@ -25,7 +25,7 @@
       			</form>
       		</div>
           <ul class="breadcrumb">
-            <li><a href="#">Forside</a></li>
+            <li><a href="index.html">Forside</a></li>
             <li>Opret Bruger</li>
           </ul>
       	</nav>
@@ -33,12 +33,12 @@
 
 
       <main class="indhold">
+       <form action="/action_page.php">
         <input type="text" id="fnavn" name="fnavn" placeholder="Fornavn"size="25px"> <input type="text" id="enavn" name="enavn" placeholder="Efternavn"size="25px">
         <ul>
-          <li><input type="radio" id="mand" value="Mand"><label for="mand">Mand</label></li>
-
-          <li><input type="radio" id="dame" value="Kvinde"><label for="dame">Kvinde</label></li>
-          <li><input type="radio" id="and" value="Andet"><label for="and">Andet</label></li>
+          <li><input type="radio" id="mand" name="køn" value="Mand"> <label for="mand">Mand</label></li>
+          <li><input type="radio" id="dame" name="køn" value="Kvinde"> <label for="dame">Kvinde</label></li>
+          <li><input type="radio" id="and" name="køn" value="Andet"> <label for="and">Andet</label></li>
         </ul>
         <input type="text" id="adresse" name="adresse" placeholder="Adresse" size="50px"><br>
         <input type="text" id="telf" name="telf" placeholder="Telefon Nummer"size="50px"><br>
@@ -49,6 +49,7 @@
         <button class="submit" type="submit" name="opret">Opret Konto</button>
 
         <p><input type="checkbox" name="privacy" id="privat"><label for="privat">Jeg accepterer Klippekortets <span class="understreg">vilkår og betingelser</span> og <span class="understreg">Persondataforordningen</span></label</p>
+      </form>
 
       </main>
 
