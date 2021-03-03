@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/opret.css">
+    <link rel="stylesheet" href="css/search.css">
+
+    <script src="https://kit.fontawesome.com/9464e3997a.js" crossorigin="anonymous" defer></script>
+    <title>Klippekortet/forside</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="head">
+        <nav class="wrapper">
+      		<div class="logo">
+      			<a href=""><img src="img/alt3-logo-med-text.png" alt="" id="logo"></a>
+      		</div>
+      		<div class="search">
+      			<form action="" class="search">
+      				<input type="text" id="search" placeholder="Indtast din adresse...">
+      				<button type="submit" class="btn">
+      					<i class="fas fa-search"></i>
+      				</button>
+      			</form>
+      		</div>
+          <ul class="breadcrumb">
+            <li><a href="#">Forside</a></li>
+            <li>Opret Bruger</li>
+          </ul>
+      	</nav>
+      </header>
+
+
+      <main class="indhold">
+        <input type="text" id="fnavn" name="fnavn" placeholder="Fornavn"size="25px"> <input type="text" id="enavn" name="enavn" placeholder="Efternavn"size="25px">
+        <ul>
+          <li><input type="radio" id="mand" value="Mand"><label for="mand">Mand</label></li>
+
+          <li><input type="radio" id="dame" value="Kvinde"><label for="dame">Kvinde</label></li>
+          <li><input type="radio" id="and" value="Andet"><label for="and">Andet</label></li>
+        </ul>
+        <input type="text" id="adresse" name="adresse" placeholder="Adresse" size="50px"><br>
+        <input type="text" id="telf" name="telf" placeholder="Telefon Nummer"size="50px"><br>
+        <input type="text" id="email" name="email" placeholder="E-mail"size="50px"><br>
+        <input type="password" id="adgang" name="adgang" placeholder="Adgangskode"size="50px"><br>
+        <input type="password" id="adgang2" name="adgang2" placeholder="Gentag Adgangskode"size="50px"><br>
+
+        <button class="submit" type="submit" name="opret">Opret Konto</button>
+
+        <p><input type="checkbox" name="privacy" id="privat"><label for="privat">Jeg accepterer Klippekortets <span class="understreg">vilkår og betingelser</span> og <span class="understreg">Persondataforordningen</span></label</p>
+
+      </main>
+
+
+
+      <footer class="foot">
+        <div class="wrapper flex jcsb">
+      		<div class="kontakt">
+      			<h3>Kontakt</h3>
+      			<a>Kontakt os</a> <br>
+      			<a>Hvem er vi</a>
+      		</div>
+
+
+      		<div class="find-by">
+      			<h3>Find din by...</h3>
+      			<a>København</a>  <a>Århus</a> <br>
+      			<a>Odense</a>  <a>Aalborg</a> <br>
+      			<a>Esbjerg</a>  <a>Randers</a> <br>
+      			<a>Kolding</a>  <a>Horsens</a>
+
+
+      		</div>
+
+      		<div class="partners-terms-wrapper">
+      			<div class="partners">
+      				<h3>Partnere</h3>
+      				<a>Tilmeld din salon</a>
+      			</div>
+
+      			<div class="terms">
+      				<h3>Vilkår</h3>
+      				<a>Vilkår og betingelser</a> <br>
+      				<a>Cookie-/Fortrolighedspolitik</a>
+      			</div>
+      		</div>
+
+
+      		<div class="follow">
+      			<h3>Følg os</h3>
+      			<a href=""><i class="fab fa-linkedin"></i></a> <br>
+      			<a href=""><i class="fab fa-instagram-square"></i></a> <br>
+      			<a href=""><i class="fab fa-facebook-square"></i></a>
+      		</div>
+      	</div>
+
+      </footer>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,141 @@
+.wrapper {
+    max-width: 100%;
+
+}
+
+.wrapper > * {
+    padding: 10px;
+}
+
+body {
+  background-color: #F7F7F7;
+}
+
+h3 {
+  font-family: "Segoe UI", regular;
+  font-size: 22px;
+  color: #AF8447;
+}
+
+li {
+  list-style: none;
+  display: inline-table;
+  margin-right: 80px;
+}
+
+.soeg{
+  margin-left: -50px;
+  width: 50px;
+  font-size: 23px;
+  height: 39px;
+  background-color: #2D241B;
+  color: #AF8447;
+  border-radius: 4px;
+  /* margin-right: 55px; */
+  border: none;
+}
+
+label{
+  margin-right: 20px;
+}
+
+.understreg{
+  color: #3A83F2;
+  text-decoration: underline;
+}
+
+input{
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-width: thin;
+  border-color: #707070;
+  position: relative;
+  left: 10%;
+}
+
+.submit{
+  background-color: #5A8A5A;
+  border-radius: 4px;
+  height: 50px;
+  width: auto;
+  border: none;
+  color: white;
+  font-family: "Segoe UI","Regular";
+  font-size: 18px;
+}
+
+p{
+  font-family: "Segoe UI", regular;
+  font-size: 15px;
+}
+
+div.gallary{
+  margin: 10px;
+  float: left;
+  width: 278px;
+  background-color: #ffffff;
+}
+
+
+
+img.logo{
+  left: 155px;
+  top: 5px;
+  position: absolute;
+
+
+}
+
+img.gal {
+  width: 278px;
+  height: auto;
+  border-radius: 4px;
+}
+
+div.beskrivelse{
+  padding: 15px;
+  text-align: center;
+}
+.head{
+  grid-area: head;
+  width: 100%;
+}
+
+.search{
+  grid-area: search;
+  background-color: #ffffff;
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+.indhold{
+  grid-area: indhold;
+  width: 80%;
+  align-content: center;
+  background-color: #FFFFFF;
+  text-align: -webkit-center;
+  position: relative;
+  left: 10%;
+
+}
+
+
+.foot{
+grid-area: foot;
+background-color: #1E1E1E;
+width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "head head "
+    "search search "
+    "indhold indhold  "
+    "foot  foot  ";
+
+  }

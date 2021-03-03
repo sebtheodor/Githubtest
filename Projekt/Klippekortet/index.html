@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/klippekort.css">
+    <script defer src="js/search.js"></script>
+    <title>Klippekortet/forside</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="head">
+        <img class="banner" src="img/Banner-grad.jpg" alt="man bliver klippet" >
+        <img class="logo" src="img\alt3-logo-med-text.png" alt="man bliver klippet">
+      </header>
+
+      <nav class="search">
+        <h1>Find din næste frisør</h1>
+        <form name="searchForm" action="search.html" onsubmit="return validateForm()" method="post">
+        <input type="text" id="fname" name="fname" size="100" placeholder="Indtast postnummer">
+        <input type="submit" value="Søge">
+        <ul></ul>
+
+      </nav>
+
+      <main class="indhold">
+        <div class="gallary">
+        <div class="beskrivelse">
+          <h3>1. Indtast din adresse!</h3>
+          <p>Ved at indtaste postnummer finder vi de frisører som er nær din lokation</p>
+        </div>
+          <img class="gal" src="img/klip1crop.jpg" alt="mand bliver friseret">
+        </div>
+
+        <div class="gallary">
+        <div class="beskrivelse">
+          <h3>2. Find en frisør!</h3>
+          <p>Vi sørger for at finde den bedste frisør til netop dine behov</p>
+        </div>
+          <img class="gal" src="img/klip2.jpg" alt="En salon">
+        </div>
+
+        <div class="gallary">
+        <div class="beskrivelse">
+          <h3>3. Book din tid!</h3>
+          <p>Booker du tid gennem os optjener du points til dit eget klippekort som kan indløses for en gratis klipning!</p>
+        </div>
+          <img class="gal" src="img/klip3.jpg" alt="En mand der bliver trimmet">
+        </div>
+
+      </main>
+
+
+
+      <footer class="foot">
+
+      </footer>
+    </div>
+
+
+  </body>
+</html>
