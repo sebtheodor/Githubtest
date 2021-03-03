@@ -112,10 +112,26 @@ div.beskrivelse{
 .search{
   grid-area: search;
   background-color: #ffffff;
-  width: 60%;
+  width: 55%;
+  height: 35%;
   position: relative;
-  left: 20%;
-  bottom: 53%;
+  left: 22%;
+  bottom: 70%;
+  border-radius: 10px;
+}
+
+form{
+  position: relative;
+  top: 15%;
+  right: 7%;
+}
+
+h1{
+  font-size: 36px;
+  position: relative;
+  left: 30%;
+  top: 20%;
+  color: #AF8447;
 }
 
 .indhold{
@@ -125,8 +141,9 @@ div.beskrivelse{
   text-align: -webkit-center;
   position: relative;
   left: 10%;
-  bottom: 50%;
-
+  bottom: 60%;
+  position:relative;
+  float: left;
 }
 
 
