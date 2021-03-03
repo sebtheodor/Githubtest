@@ -61,6 +61,12 @@ header{
 	margin-bottom: 30px;
 }
 
+header .crumb{
+	margin-left: 280px;
+	font-size: 14px;
+	font-family: 'segoe ui';
+	font-style: italic;
+}
 
 nav{
 	display: flex;
@@ -331,7 +337,6 @@ aside input[type="checkbox"]{
 	margin-left: 20px;
 	text-decoration: none;
 	font-size: 20px;
-	height: 25px;
 }
 
 
@@ -540,6 +545,7 @@ figcaption{
 
 .timetable h3{
 	color: #af8447;
+	margin-bottom: 15px;
 }
 
 .timetable p{
@@ -564,15 +570,15 @@ figcaption{
 .anmeldelser .stars{
 	font-size: 20px;
 	margin-left: 5px;
-	margin-right: 10px;
+	margin-right: 30px;
 	color: #ffdc7b;
 }
 
 .anmeldelser a{
 	display: block;
-	margin-top: 5px;
+	margin-top: 2px;
 	margin-right: 10px;
-	margin-left: 150px;
+	margin-left: 130px;
 	text-decoration: none;
 	font-style: italic;
 	width: 140px;
