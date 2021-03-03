@@ -6,11 +6,12 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/search.css">
 	<script src="https://kit.fontawesome.com/9464e3997a.js" crossorigin="anonymous" defer></script>
+	<script src="js/open.js" type="text/javascript" defer> </script>
 	<title>Klippekortet | Dit hår, din stil</title>
 </head>
 
-<body>
 
+<body>
 	<header>
 		<nav class="wrapper">
 			<div class="logo">
@@ -32,7 +33,7 @@
 			</div>
 		</nav>
 		<div class="wrapper">
-			<p class="crumb">Forside / Søg / <span class="fw600">Slikhaar</span></p>
+			<p class="crumb"><a href="index.html">Forside</a> / <a href="search.html">Søg</a> / <span class="fw600">Slikhaar</span></p>
 		</div>
 	</header>
 
@@ -47,7 +48,9 @@
 					<h1>Slikhaar</h1>
 					<h2>Haarsliksvej 87</h2>
 					<p><span class="fw600">Booking:</span> Telefon - Online</p>
-					<p>Åben nu: 09:00 - 17:00</p>
+					<p id="open-now">
+						Åben nu: 09:00 - 17:00
+					</p>
 				</div>
 				<div class="salon-links">
 					<a href="">Website</a>
@@ -59,10 +62,10 @@
 		</section>
 
 		<div class="flex jcsb">
-			<section class="content-box">
+			<section class="content-box" id="frisoer">
 				<div class="price-menu flex jcsb">
 					<div class="frisoer">
-						<a href="">Lars</a>
+						<a data-articleid="1" href="">Lars</a>
 						<a href="">Karl</a>
 						<a href="">Katrine</a>
 					</div>
@@ -76,7 +79,7 @@
 							<option value="Dame">Dameklip</option>
 							<option value="Barn">Børneklip</option>
 						</select>
-						<span><a href="">Book nu</a></span>
+						<span><a onclick="bookTime()">Book nu</a></span>
 					</div>
 					<div class="prices">
 						<div class="price flex jcsb">
@@ -118,7 +121,7 @@
 					Medarbejder hos Beauty Coiffure i Århus som frisør.
 				</figcaption>
 				<div class="timetable">
-					<h3>Åbningstider:</h3>
+					<h3 class="fw600">Åbningstider:</h3>
 					<div class="table">
 						<span class="flex jcsb">
 							<p>Mandag</p> <p>09:00 - 17:00</p>
@@ -153,7 +156,7 @@
 						<i class="fas fa-star-half-alt"></i>
 						<i class="far fa-star"></i>
 					</span>
-					<a href="">Skriv Andmeldelse</a>
+					<a href="">Skriv anmeldelse</a>
 					<iframe src="https://www.trustpilot.com/review/www.slikhaar.dk" frameborder="0"></iframe>
 				</div>
 			</aside>

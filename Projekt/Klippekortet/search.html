@@ -51,18 +51,18 @@
 			<h2>Sortér</h2>
 			<div class="sorting">
 				<ul>
-					<li><input type="checkbox" id="pris"> <label for="pris">Pris</label></li>
+					<li><input type="checkbox" id="pris" onclick="sortList()"> <label for="pris">Pris</label></li>
 					<li><input type="checkbox" id="lokalition"> <label for="lokalition">Lokalition</label></li>
 					<li><input type="checkbox" id="type"> <label for="type">Drop in</label></li>
 				</ul>
 			</div>
 		</aside>
 
-		<article class="searched-items">
-			<div class="searched-item">
+		<ul class="searched-items" id="items">
+			<li class="searched-item">
 				<img src="img/slikhaar-logo.jpg" alt="">
 				<div class="item-info">
-					<h2>Slikhaar</h2>
+					<h2 class="salon-name">Slikhaar</h2>
 					<h3>Haarsliksvej 87</h3>
 					<p class="about-title">Lidt om butikken:</p>
 					<p class="about-desc">
@@ -75,7 +75,7 @@
 				<div class="flex-col">
 					<div class="special-info1">
 						<p>Kategori: Herreklip</p>
-						<p>220kr.-</p>
+						<p><span class="pris">240</span>kr.-</p>
 					</div>
 					<p class="open">
 						Åben nu: <br>
@@ -87,10 +87,10 @@
 
 
 
-			<div class="searched-item">
+			<li class="searched-item">
 				<img src="img/beauty-coiffure-small.jpg" alt="">
 				<div class="item-info">
-					<h2>Beauty Coiffure</h2>
+					<h2 class="salon-name">Beauty Coiffure</h2>
 					<h3>Fritzgade 3</h3>
 					<p class="about-title">Lidt om butikken:</p>
 					<p class="about-desc">
@@ -101,10 +101,10 @@
 					</p>
 				</div>
 				<div class="flex-col">
-					<p class="special-info2">
+					<!--<p class="special-info2">
 						Afbudstid tilgængelig <br>
 						Karl: 09:00 - 09:40
-					</p>
+					</p> -->
 					<p class="open">
 						Åben nu: <br>
 						09:00 - 17:00 
@@ -115,10 +115,10 @@
 
 
 
-			<div class="searched-item">
+			<li class="searched-item">
 				<img src="img/aAnsigt-small.jpg" alt="">
 				<div class="item-info">
-					<h2>Salon aAnsigt</h2>
+					<h2 class="salon-name">Salon aAnsigt</h2>
 					<h3>Odensevej 27</h3>
 					<p class="about-title">Lidt om butikken:</p>
 					<p class="about-desc">
@@ -141,10 +141,10 @@
 
 
 
-			<div class="searched-item">
+			<li class="searched-item">
 				<img src="img/carlsens-small.jpg" alt="">
 				<div class="item-info">
-					<h2>Carlsen's</h2>
+					<h2 class="salon-name">Carlsen's</h2>
 					<h3>Mathiasvej 29</h3>
 					<p class="about-title">Lidt om butikken:</p>
 					<p class="about-desc">
