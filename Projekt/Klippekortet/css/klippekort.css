@@ -35,6 +35,10 @@ li {
   border: none;
 }
 
+label{
+  margin-right: 20px;
+}
+
 .understreg{
   color: #3A83F2;
   text-decoration: underline;
