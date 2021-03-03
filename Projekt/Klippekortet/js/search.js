@@ -14,5 +14,9 @@ document.getElementById('fname').addEventListener('input', (e)=>{
 
   let citysArray = [];
 
-  console.log(e.target.value);
+  console.log(e.target.value){
+    citysArray = citys.filter(city => city.toLowerCase().includes(e.target.value));
+  }
+
+  console.log(citysArray);
 })
