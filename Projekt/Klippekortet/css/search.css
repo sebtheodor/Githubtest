@@ -1,3 +1,5 @@
+/*  Almen CSS  */
+
 *, * *, * > * {
 	font-family: "segoe ui";
 	box-sizing: border-box;
@@ -7,58 +9,10 @@ body{
 	background-color: #f7f7f7;
 }
 
-header{
-	margin-bottom: 50px;
-}
-
 h2{
 	color: #af8447;
 	font-size: 20px;
 	font-family: 'Segoe UI';
-}
-
-
-footer{
-	background-color: #1e1e1e;
-	padding-top: 20px;
-	padding-bottom: 10px;
-}
-
-footer h3{
-	color: #af8447;
-	font-family: 'Segoe UI';
-	font-size: 18px;
-	margin-bottom: 5px;
-	font-weight: 600;
-}
-
-footer a{
-	color: #af8447;
-	font-family: 'Segoe UI';
-	font-size: 12px;
-	line-height: 24px;
-}
-
-footer .partners{
-	margin-bottom: 20px;
-}
-
-footer .find-by a{
-	display: inline-block;
-	width: 70px;
-	margin-right: 10px;
-}
-
-footer .follow h3{
-	margin-bottom: 15px;
-}
-
-footer .follow a{
-	font-size: 28px;
-	text-align: right;
-	width: 60px;
-	display: inline-block;
-	margin-bottom: 5px;
 }
 
 .fw800{
@@ -90,6 +44,23 @@ footer .follow a{
 	margin: 0;
 	margin: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Header CSS */
+
+header{
+	margin-bottom: 30px;
+}
+
 
 nav{
 	display: flex;
@@ -160,6 +131,62 @@ button{
 
 
 
+
+
+/* Footer CSS */
+
+footer{
+	background-color: #1e1e1e;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+footer h3{
+	color: #af8447;
+	font-family: 'Segoe UI';
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+footer a{
+	color: #af8447;
+	font-family: 'Segoe UI';
+	font-size: 12px;
+	line-height: 24px;
+}
+
+footer .partners{
+	margin-bottom: 20px;
+}
+
+footer .find-by a{
+	display: inline-block;
+	width: 70px;
+	margin-right: 10px;
+}
+
+footer .follow h3{
+	margin-bottom: 15px;
+}
+
+footer .follow a{
+	font-size: 28px;
+	text-align: right;
+	width: 60px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Eksklusivt search.html css */
 
 aside div{
 	background-color: #fff;
@@ -310,11 +337,19 @@ aside input[type="checkbox"]{
 
 
 
+
+
+
+
+
+
+
+
 /* Eksklusivt item.html css */
 
 .banner{
 	background-color: white;
-	height: 410px;
+	height: 405px;
 	background-repeat: 4px;
 }
 
@@ -328,7 +363,7 @@ aside input[type="checkbox"]{
 .salon-info{
 	margin-left: 20px;
 	margin-top: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .salon-info h1{
@@ -351,3 +386,101 @@ aside input[type="checkbox"]{
 	font-weight: 300;
 	margin-bottom: 3px;
 }
+
+.salon-links{
+	margin-top: 10px;
+	margin-right: 20px;
+	bottom: 20px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.salon-links a:first-child{
+	display: block;
+	background-color: #1E80FF;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 10px 40px;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	margin-bottom: 15px;
+}
+
+.salon-links img{
+	margin-top: 5px;
+	height: 25px;
+}
+
+.content-box{
+	margin-top: 40px;
+}
+
+.price-menu {
+	width: 735px;
+}
+
+
+.price-menu a{
+	background-color: #2D241B;
+	color: #af8447;
+	text-decoration: none;
+	border-radius: 4px 4px 0px 0px;
+	padding: 10px 20px;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.price-menu a:hover{
+	background-color: #af8447;
+	color: #2D241B;
+	transition: 0.2s;
+}
+
+.price-menu a:last-child{
+	margin-right: 0;
+}
+
+.pricetable{
+	background-color: white;
+	display: block;
+	height: 535px;
+	width: 735px;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+
+.pricetable .menu select{
+	border-radius: 4px;
+	padding: 10px 40px;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	border: solid 1px #707070;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-top: 20px;'
+	appearance: none;
+}
+
+
+.pricetable .menu span{
+	margin-top: 33px;
+	margin-right: 20px;
+}
+
+
+
+.pricetable .menu a{
+	background-color: #5a8a5a;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 10px 40px;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	margin-bottom: 15px;
+}
+
