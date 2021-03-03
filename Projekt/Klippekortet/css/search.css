@@ -1,3 +1,8 @@
+*, * *, * > * {
+	font-family: "segoe ui";
+	box-sizing: border-box;
+} 
+
 body{
 	background-color: #f7f7f7;
 }
@@ -54,6 +59,14 @@ footer .follow a{
 	width: 60px;
 	display: inline-block;
 	margin-bottom: 5px;
+}
+
+.fw800{
+	font-weight: 800;
+}
+
+.fw600{
+	font-weight: 600;
 }
 
 .flex{
@@ -292,4 +305,49 @@ aside input[type="checkbox"]{
 	text-decoration: none;
 	font-size: 20px;
 	height: 25px;
+}
+
+
+
+
+/* Eksklusivt item.html css */
+
+.banner{
+	background-color: white;
+	height: 410px;
+	background-repeat: 4px;
+}
+
+.banner-img img{
+	opacity: .6;
+	border-radius: 4px 4px 0px 0px;
+	height: 285px;
+}
+
+
+.salon-info{
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.salon-info h1{
+	font-size: 35px;
+	font-weight: 600;
+	color: #af8447;
+}
+
+.salon-info h2{
+	font-size: 18px;
+	font-weight: 600;
+	font-style: italic;
+	margin-top: 3px;
+	margin-bottom: 8px;
+	color: #505050;
+}
+
+.salon-info p{
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 3px;
 }
