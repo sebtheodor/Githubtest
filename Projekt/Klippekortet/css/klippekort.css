@@ -73,8 +73,10 @@ p{
 div.gallary{
   margin: 10px;
   float: left;
+  left: 12%;
   width: 278px;
   background-color: #ffffff;
+  position: relative;
 }
 
 
@@ -97,6 +99,7 @@ img.gal {
 div.beskrivelse{
   padding: 15px;
   text-align: center;
+  position: relative;
 }
 .head{
   grid-area: head;
