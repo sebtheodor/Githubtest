@@ -158,6 +158,10 @@ position: relative;
 float: left;
 }
 
+.jcsb{
+	justify-content: space-between;
+}
+
 .foot h3{
 	color: #af8447;
 	font-family: 'Segoe UI';
@@ -173,39 +177,14 @@ float: left;
 	line-height: 24px;
 }
 
-.kontakt{
-  float: left;
-  position: relative;
-  left: 15%;
-}
-
-.partners-terms-wrapper{
-  float: left;
-  position: relative;
-  left: 36%;
-}
-
 .partners{
 	margin-bottom: 20px;
-  float: left;
-}
-
-.find-by{
-  float: left;
-  position: relative;
-  left: 28%;
 }
 
 .find-by a{
 	display: inline-block;
 	width: 70px;
 	margin-right: 10px;
-}
-
-.follow{
-  float: left;
-  position: relative;
-  left: 55%;
 }
 
 .follow h3{
@@ -218,12 +197,6 @@ float: left;
 	width: 60px;
 	display: inline-block;
 	margin-bottom: 5px;
-}
-
-.terms{
-  float: left;
-  position: relative;
-  left: 62%;
 }
 
 .wrapper {
