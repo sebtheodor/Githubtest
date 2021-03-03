@@ -124,9 +124,8 @@ div.beskrivelse{
   align-content: center;
   text-align: -webkit-center;
   position: relative;
+  float: left;
   left: 10%;
-  bottom: 50%;
-
 }
 
 
