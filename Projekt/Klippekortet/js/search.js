@@ -1,3 +1,5 @@
+console.log('koden er inde');
+
 function validateForm() {
   var x = document.forms["searchForm"]["fname"].value;
   if (x == "") {
