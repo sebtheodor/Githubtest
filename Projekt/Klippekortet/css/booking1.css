@@ -3,7 +3,7 @@
 }
 
 .kobListe a {
-	color: green;
+	color: #5a8a5a;
 	width: 30px;
 	font-size: 30px;
 	display: inline-block;
@@ -110,4 +110,8 @@
 .totalPris p:nth-child(1) {
   color: #af8447;
   font-size: 30px;
+}
+
+#kategori {
+  width: 185px;
 }
