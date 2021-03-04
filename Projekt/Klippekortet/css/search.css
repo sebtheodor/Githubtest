@@ -3,7 +3,7 @@
 *, * *, * > * {
 	font-family: "segoe ui";
 	box-sizing: border-box;
-}
+} 
 
 body{
 	background-color: #f7f7f7;
@@ -265,7 +265,7 @@ aside input[type="checkbox"]{
 
 .searched-item .item-info{
 	padding-left: 20px;
-	border-left: 1px solid #ccc;
+	border-left: 1px solid #ccc; 
 	margin-right: 20px;
 }
 
@@ -739,13 +739,13 @@ figcaption{
 	align-items: center;
 }
 
-#BehandlingsListe {
+.BehandlingsListe {
 	position: absolute;
 	margin-left: 255px;
 	margin-top: -60px;
 }
 
-#BehandlingsListe> p:nth-child(1) {
+.BehandlingsListe> p:nth-child(1) {
 	color: #af8447;
 	font-size: 20px;
 }
@@ -756,13 +756,13 @@ figcaption{
 	margin-left: 50px;
 }
 
-#behandlinsListeContainer {
+.behandlinsListeContainer {
 	display: flex;
 	flex-direction: column;
 	align-items: space-between;
 }
 
-#behandlinsListeContainer p {
+.behandlinsListeContainer p {
 	width: 80px;
 }
 
@@ -778,9 +778,9 @@ figcaption{
 	font-size: 30px;
 }
 
-#kategori {
-	width: 185px;
-}
+
+
+
 
 
 
@@ -977,3 +977,5 @@ figcaption{
 	width: 210px;
 	line-height: 12px;
 }
+
+
