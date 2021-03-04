@@ -1,149 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/search.css">
-  <script src="https://kit.fontawesome.com/9464e3997a.js" crossorigin="anonymous" defer></script>
-  <script defer src="js/addrese.js"></script>
-  <title>Klippekortet | Dit hår, din stil</title>
-</head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/klippekort.css">
+    <script defer src="js/addrese.js"></script>
+    <title>Klippekortet/forside</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="head">
+        <div class="banner">
+
+        <img class="logo" src="img\alt3-logo-med-text.png" alt="man bliver klippet">
+
+        <div class="log-in">
+  				<a href="log-ind.html">Log ind</a>
+  			</div>
+  			<div class="log-out">
+  				<a href="opret.html">Opret bruger</a>
+  			</div>
+
+        <nav class="search">
+          <h1>Find din næste frisør</h1>
+          <form autocomplete="off" name="searchForm" action="search.html" onsubmit="return validateForm()" method="post">
+          <input type="text" id="fname" name="fname" size="100" placeholder="Indtast postnummer">
+          <input type="submit" class="find" value="Find frisører">
+          <ul></ul>
+
+        </nav>
+      </header>
 
 
-<body>
-  <header>
-    <div class="fp-banner"></div>
-    <nav class="wrapper">
-      <div class="logo">
-        <a href="index.html"><img src="img/alt3-logo-med-text.png" alt="" id="logo"></a>
-      </div>
-      <div class="search">
-        <form action="" class="search">
-        </form>
-      </div>
-      <div class="log-in">
-        <a href="log-in.html">Log ind</a>
-      </div>
-      <div class="log-out">
-        <a href="opret.html">Opret bruger</a>
-      </div>
-    </nav>
-  </header>
-
-
-  <main class="wrapper">
-    <div class="fp-search">
-      <h1>Find din næste frisør</h1>
-      <form action="search.html" onsubmit="return validateForm()" method="post" name="searchForm">
-        <input type="text" placeholder="Indtast postnummer..." id="fname" name="fname" required>
-        <input type="submit" value="Find frisører">
-      </form>
-      <ul></ul>
-    </div>
-
-    <div class="fp-wrapper">
-      <div class="flex jcsb">
-        <div class="fp-item">
-          <h2>1. Indtast din adresse</h2>
+      <main class="indhold">
+        <div class="gallary">
+        <div class="beskrivelse">
+          <h3>1. Indtast din adresse!</h3>
           <p>Ved at indtaste postnummer finder vi de frisører som er nær din lokation</p>
-          <figure><img src="img/klip1crop.jpg" alt=""></figure>
+        </div>
+          <img class="gal" src="img/klip1crop.jpg" alt="mand bliver friseret">
         </div>
 
-
-        <div class="fp-item">
-          <h2>2. Find din frisør</h2>
-          <p>Vi sørger for at finde den bedste frisør til netop dine behov </p>
-          <figure><img src="img/klip2.jpg" alt=""></figure>
+        <div class="gallary">
+        <div class="beskrivelse">
+          <h3>2. Find en frisør!</h3>
+          <p>Vi sørger for at finde den bedste frisør til netop dine behov</p>
+        </div>
+          <img class="gal" src="img/klip2.jpg" alt="En salon">
         </div>
 
-
-        <div class="fp-item">
-          <h2>3. Book din tid!</h2>
-          <p>Booker du tid gennem os optjener du points til dit eget klippekort som kan indløses for en gratis klipning!</p>
-          <figure><img src="img/klip3.jpg" alt=""></figure>
+        <div class="gallary">
+        <div class="beskrivelse">
+          <h3>3. Book din tid!</h3>
+          <p>Booker du tid optjener du points til dit eget klippekort som kan give en gratis klipning!</p>
         </div>
-      </div>
+          <img class="gal" src="img/klip3.jpg" alt="En mand der bliver trimmet">
+        </div>
+
+        <div class="salon">
+          <div class="choice1">
+
+          </div>
+        </div>
+      </main>
+
+      <footer class="foot">
+        <div class="wrapper flex jcsb">
+          <div class="kontakt">
+            <h3>Kontakt</h3>
+            <a>Kontakt os</a> <br>
+            <a>Hvem er vi</a>
+          </div>
+
+
+          <div class="find-by">
+            <h3>Find din by...</h3>
+            <a>København</a>  <a>Århus</a> <br>
+            <a>Odense</a>  <a>Aalborg</a> <br>
+            <a>Esbjerg</a>  <a>Randers</a> <br>
+            <a>Kolding</a>  <a>Horsens</a>
+
+
+          </div>
+
+          <div class="partners-terms-wrapper">
+            <div class="partners">
+              <h3>Partnere</h3>
+              <a>Tilmeld din salon</a>
+            </div>
+
+            <div class="terms">
+              <h3>Vilkår</h3>
+              <a>Vilkår og betingelser</a> <br>
+              <a>Cookie-/Fortrolighedspolitik</a>
+            </div>
+          </div>
+
+
+          <div class="follow">
+            <h3>Følg os</h3>
+            <a href=""><i class="fab fa-linkedin"></i></a> <br>
+            <a href=""><i class="fab fa-instagram-square"></i></a> <br>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+          </div>
+        </div>
+
+      </footer>
     </div>
 
 
-    <div class="fp-wrapper">
-      <h1>Populærer Saloner</h1>
-      <div class="flex jcsb">
 
-        <a href="item.html"><span class="salon3">
-          <h2>Slikhaar</h2>
-        </span></a>
-
-        <span class="salon3">
-          <h2>Hairstyle</h2>
-        </span>
-
-        <span class="salon3">
-          <h2>Hairdesign</h2>
-        </span>
-
-      </div>
-
-      <div class="flex jcsb">
-        <span class="salon4">
-          <h2>Qvik-cuts</h2>
-        </span>
-
-        <span class="salon4">
-          <h2>aAnsigt</h2>
-        </span>
-
-        <span class="salon4">
-          <h2>Prettyhair</h2>
-        </span>
-
-        <span class="salon4">
-          <h2>Carlsen's</h2>
-        </span>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <div class="wrapper flex jcsb">
-      <div class="kontakt">
-        <h3>Kontakt</h3>
-        <a>Kontakt os</a> <br>
-        <a href="about.html">Hvem er vi</a>
-      </div>
-
-
-      <div class="find-by">
-        <h3>Find din by...</h3>
-        <a>København</a>  <a>Århus</a> <br>
-        <a>Odense</a>  <a>Aalborg</a> <br>
-        <a>Esbjerg</a>  <a>Randers</a> <br>
-        <a>Kolding</a>  <a>Horsens</a>
-      </div>
-
-      <div class="partners-terms-wrapper">
-        <div class="partners">
-          <h3>Partnere</h3>
-          <a>Tilmeld din salon</a>
-        </div>
-
-        <div class="terms">
-          <h3>Vilkår</h3>
-          <a>Vilkår og betingelser</a> <br>
-          <a>Cookie-/Fortrolighedspolitik</a>
-        </div>
-      </div>
-
-
-      <div class="follow">
-        <h3>Følg os</h3>
-        <a href=""><i class="fab fa-linkedin"></i></a> <br>
-        <a href=""><i class="fab fa-instagram-square"></i></a> <br>
-        <a href=""><i class="fab fa-facebook-square"></i></a>
-      </div>
-    </div>
-  </footer>
-
-</body>
+  </body>
 </html>

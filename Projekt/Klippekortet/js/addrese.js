@@ -1,5 +1,5 @@
 console.log('koden er inde');
-// validate hvor man skal skrive noget for at komme videre
+
 function validateForm() {
   var x = document.forms["searchForm"]["fname"].value;
   if (x == "") {
@@ -8,7 +8,7 @@ function validateForm() {
   }
 }
 
-//
+
 const citys = ['5100', '5250', '8100', '7100', '2600', '2625', '2200', '2400' ];
 
 document.getElementById('fname').addEventListener('input', (e)=>{
