@@ -263,6 +263,21 @@ footer .follow a{
 	font-size: 18px;
 }
 
+.fp-search ul{
+	position: relative;
+	box-sizing: border-box;
+	background-color: white;
+	margin-top: -45px;
+	width: 516px;
+	margin-left: 35px;
+}
+
+.fp-search li{
+	padding: 15px;
+	border: 1px solid #707070;
+	border-top: none;
+}
+
 .fp-wrapper{
 	width: 950px;
 	margin: auto;
