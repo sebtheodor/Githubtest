@@ -98,6 +98,7 @@ nav{
 }
 
 .search{
+	width: 580px;
 }
 
 #search{
@@ -191,6 +192,201 @@ footer .follow a{
 	display: inline-block;
 	margin-bottom: 5px;
 }
+
+
+
+
+
+
+/* Eksklusivt index.html css */
+.fp-banner{
+	height: 400px;
+	width: 100%;
+	background-image: url(../img/Banner-grad.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	position: absolute;
+
+	z-index: 1;
+}
+
+.wrapper{
+	position: relative;
+	z-index: 2;
+}
+
+.fp-search{
+	width: 730px;
+	height: 170px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+.fp-search h1{
+	color: #af8447;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.fp-search form {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 35px;
+}
+
+.fp-search form input{
+	border: solid 1px #707070;
+	height: 45px;
+	margin-bottom: 35px;
+	box-sizing: border-box;
+}
+
+.fp-search form input:nth-child(1){
+	width: 520px;
+	border-radius: 4px 0px 0px 4px;
+	padding-left: 10px;
+}
+
+.fp-search form input:nth-child(2){
+	width: 145px;
+	border: none;
+	color: #af8447;
+	border-radius: 0px 4px 4px 0px;
+	background-color: #2d241b;
+	font-size: 18px;
+}
+
+.fp-wrapper{
+	width: 950px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.fp-wrapper h1{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+	color: #af8447;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+
+.fp-item{
+	background-color: white;
+	width: 285px;
+	height: 290px;
+	border-radius: 4px;
+}
+
+.fp-item h2{
+	font-size: 22px;
+	margin-top: 10px;
+	margin-left: 20px;
+	right: 20px;
+	height: 22px;
+}
+
+.fp-item p{
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 55px;
+}
+
+
+.fp-item figure img{
+	margin-top: 15px;
+	background-color: white;
+	width: 285px;
+	border-radius: 0px 0px 4px 4px;
+	filter: brightness(0.7);
+}
+
+
+.salon3{
+	width: 270px;
+	height: 150px;
+
+	border-radius: 4px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin-bottom: 30px;
+
+	background-size: cover;
+}
+
+.salon3 h2 {
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.salon3:nth-child(1){
+	background-image: url(../img/salon3-1.jpg);
+}
+
+.salon3:nth-child(2){
+	background-image: url(../img/salon3-3.jpg);
+}
+
+.salon3:nth-child(3){
+	background-image: url(../img/salon3-2.jpg);
+}
+
+.salon4{
+	width: 180px;
+	height: 120px;
+
+	border-radius: 4px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+}
+
+.salon4 h2{
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 1px;
+
+}
+
+
+.salon4:nth-child(1){
+	background-image: url(../img/salon4-1.jpg);
+}
+
+.salon4:nth-child(2){
+	background-image: url(../img/salon4-2.jpg);
+}
+
+.salon4:nth-child(3){
+	background-image: url(../img/salon4-3.jpg);
+}
+
+
+.salon4:nth-child(4){
+	background-image: url(../img/salon4-4.jpg);
+}
+
+
+
+
+
 
 
 
@@ -979,3 +1175,107 @@ figcaption{
 }
 
 
+
+
+
+
+
+/* Eksklusivt log-in.html css */
+
+.login-box{
+	width: 700px;
+	margin: 0;
+	margin: auto;
+	padding: 30px;
+	background-color: white;
+	border-radius: 4px;
+	margin-bottom: 50px;
+	color: #505050;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-box .SoMe-login{
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 260px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login-box .SoMe-login a{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.login-box .SoMe-login hr{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.login-box .SoMe-login a:nth-child(2){
+	background-color: #3865B4;
+	color: white;
+}
+
+
+.login-box .SoMe-login a:nth-child(3){
+	background-color: #6594FF;
+	color: white;
+}
+
+.login-box .log-in{
+	margin-right: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.login-box .log-in form{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login-box .log-in h2{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.login-box .log-in form input{
+	display: block;
+	height: 34px;
+	background-color: white;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	width: 245px;
+}
+
+.login-box .log-in form input[type=submit]{
+	background-color: #5a8a5a;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.login-box .log-in form a{
+	font-size: 12px;
+	color: #6388EE;
+	text-decoration: underline;
+	margin-top: 5px;
+}
