@@ -715,7 +715,7 @@ figcaption{
 .pricetable {
 	padding-bottom: 60px;
 }
-.pricetable .menu a {
+.pricetable .menu .btn {
 	float: right;
 	bottom: 60px;
 	margin-left: 565px;
