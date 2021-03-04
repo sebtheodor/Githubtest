@@ -1,9 +1,9 @@
 
 // Mindre script der checker hvad klokken er på et givet tidspunkt
 // Efter dette sættes det op mod den statiske åbningstid og udskriver
-// om salonen har åbent eller ej derefter.
-// (Fremvises på Item cards samt item pagen.)
-//													- Nicklas
+// om salonen har åbent eller ej derefter. Sammentidigt ændres fontweighten og color.
+// (Fremvises på under banneret på item pagen og samtlige booking sider.)
+//																		- Nicklas
 
 var date = new Date();
 var openHours = date.getHours();

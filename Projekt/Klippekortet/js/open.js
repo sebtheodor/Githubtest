@@ -1,3 +1,11 @@
+
+// Mindre script der checker hvad klokken er på et givet tidspunkt
+// Efter dette oprettes der et array udfra content der har klassen "open" 
+// Contenten bliver herefter skiftet ud med baseret på udfoldelelsen af for løkken
+// der bestemmer om klokken er mere end 9 og tidligere end 17 
+// (Fremvises på search.html)
+//															- Nicklas
+
 var date = new Date();
 var openHours = date.getHours();
 
