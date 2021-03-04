@@ -1,14 +1,68 @@
 .wrapper {
     max-width: 100%;
-
 }
 
-.wrapper > * {
-    padding: 10px;
-}
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "head head "
+    "search search "
+    "indhold indhold  "
+    "foot  foot  ";
+  }
 
 body {
   background-color: #F7F7F7;
+}
+
+.head{
+  grid-area: head;
+  width: 100%;
+  height: 75%;
+  position: relative;
+  bottom: 4%;
+}
+
+.banner{
+  width: 100%;
+  height: 335px;
+  background-color: black;
+  position: relative;
+  float: left;
+}
+
+img.logo{
+  left: 155px;
+  position: absolute;
+}
+
+img.banner{
+  width: 100%;
+}
+
+.search{
+  grid-area: search;
+  background-color: #ffffff;
+  width: 55%;
+  height: 45%;
+  position: absolute;
+  left: 22%;
+  bottom: 10%;
+  border-radius: 10px;
+}
+
+form{
+  position: relative;
+  bottom: 19%;
+}
+
+h1{
+  font-size: 36px;
+  position: relative;
+  left: 30%;
+  color: #AF8447;
 }
 
 h3 {
@@ -19,20 +73,28 @@ h3 {
 
 li {
   list-style: none;
-  display: inline-table;
+  background-color: white;
   margin-right: 80px;
 }
 
-.soeg{
-  margin-left: -50px;
-  width: 50px;
-  font-size: 23px;
-  height: 39px;
-  background-color: #2D241B;
-  color: #AF8447;
-  border-radius: 4px;
-  /* margin-right: 55px; */
-  border: none;
+.log-in{
+	margin-right: 50px;
+  position: relative;
+}
+
+.log-out{
+  margin-right: 50px;
+  position: relative;
+}
+
+.log-in a, .log-out a{
+	font-family: 'Segoe UI';
+	font-size: 20px;
+	text-decoration: none;
+	color: #AF8447;
+  position: relative;
+  float: right;
+  bottom: 50%;
 }
 
 label{
@@ -70,9 +132,21 @@ input{
   font-size: 18px;
 }
 
+
+.indhold{
+  grid-area: indhold;
+  width: 80%;
+  align-content: center;
+  text-align: -webkit-center;
+  left: 10%;
+  position:relative;
+  float: left;
+}
+
 p{
   font-family: "Segoe UI", regular;
-  font-size: 15px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 div.gallary{
@@ -82,17 +156,6 @@ div.gallary{
   width: 278px;
   background-color: #ffffff;
   position: relative;
-}
-
-
-
-img.logo{
-  left: 155px;
-  position: absolute;
-}
-
-img.banner{
-  width: 100%;
 }
 
 img.gal {
@@ -106,47 +169,13 @@ div.beskrivelse{
   text-align: center;
   position: relative;
 }
-.head{
-  grid-area: head;
+
+.salon{
   width: 100%;
-  height: 75%;
+  height: 350px;
   position: relative;
-  bottom: 4%;
-}
-
-.search{
-  grid-area: search;
-  background-color: #ffffff;
-  width: 55%;
-  height: 45%;
-  position: absolute;
-  left: 22%;
-  bottom: 10%;
-  border-radius: 10px;
-}
-
-form{
-  top: 15%;
-  right: 7%;
-}
-
-h1{
-  font-size: 36px;
-  position: relative;
-  left: 30%;
-  color: #AF8447;
-}
-
-.indhold{
-  grid-area: indhold;
-  width: 80%;
-  align-content: center;
-  text-align: -webkit-center;
-  position: relative;
-  left: 10%;
-  bottom: 20%;
-  position:relative;
   float: left;
+  background-color: blue;
 }
 
 
@@ -160,6 +189,17 @@ float: left;
 
 .jcsb{
 	justify-content: space-between;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-left: 20px;
 }
 
 .foot h3{
@@ -198,15 +238,3 @@ float: left;
 	display: inline-block;
 	margin-bottom: 5px;
 }
-
-.wrapper {
-  display: grid;
-  grid-gap: 0px;
-  grid-template-columns: 1fr 3fr;
-  grid-template-areas:
-    "head head "
-    "search search "
-    "indhold indhold  "
-    "foot  foot  ";
-
-  }
