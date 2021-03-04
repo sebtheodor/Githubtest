@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/opret.css">
     <link rel="stylesheet" href="css/search.css">
+    <script src="js/opret.js"> //indsætter en ekstern JavaScript</script>
 
     <script src="https://kit.fontawesome.com/9464e3997a.js" crossorigin="anonymous" defer></script>
     <title>Klippekortet/forside</title>
@@ -33,22 +34,22 @@
 
 
       <main class="indhold">
-       <form action="/action_page.php">
-        <input type="text" id="fnavn" name="fnavn" placeholder="Fornavn"size="25px"> <input type="text" id="enavn" name="enavn" placeholder="Efternavn"size="25px">
+       <form id="opretBruger" name="bruger formen">
+        <input type="text" id="fnavn" name="fnavn" placeholder="Fornavn"size="25px" onfocus="validerFnavn()" required><span id="fnavn_fejl">*</span> <input type="text" id="enavn" name="enavn" placeholder="Efternavn"size="25px" onfocus="validerEnavn()" required><span id="enavn_fejl">*</span>
         <ul>
-          <li><input type="radio" id="mand" name="køn" value="Mand"> <label for="mand">Mand</label></li>
-          <li><input type="radio" id="dame" name="køn" value="Kvinde"> <label for="dame">Kvinde</label></li>
-          <li><input type="radio" id="and" name="køn" value="Andet"> <label for="and">Andet</label></li>
+          <li><input type="radio" id="mand" name="køn" value="Mand" onclick="validerKøn()" required> <label for="mand">Mand</label></li>
+          <li><input type="radio" id="dame" name="køn" value="Kvinde" onclick="validerKøn()"> <label for="dame">Kvinde</label></li>
+          <li><input type="radio" id="and" name="køn" value="Andet" onclick="validerKøn()"> <label for="and">Andet</label></li>
         </ul>
-        <input type="text" id="adresse" name="adresse" placeholder="Adresse" size="50px"><br>
-        <input type="text" id="telf" name="telf" placeholder="Telefon Nummer"size="50px"><br>
-        <input type="text" id="email" name="email" placeholder="E-mail"size="50px"><br>
-        <input type="password" id="adgang" name="adgang" placeholder="Adgangskode"size="50px"><br>
-        <input type="password" id="adgang2" name="adgang2" placeholder="Gentag Adgangskode"size="50px"><br>
+        <input type="text" id="adresse_validering" name="adresse" placeholder="Adresse" size="50px" onfocus="validerAdresse()" required><span id="adresse_fejl">*</span><br>
+        <input type="text" id="telf_validering" name="telf" placeholder="Telefon Nummer"size="50px" maxlength="8" onfocus="validerTlf()" required><span id="telf_fejl">*</span><br>
+        <input type="text" id="email_validering" name="email" placeholder="E-mail"size="50px" onfocus="validerEmail()" required><span id="email_fejl">*</span><br>
+        <input type="password" id="adgang_validering" name="adgang" placeholder="Adgangskode"size="50px" onfocus="validerAdgang1()" required><span id="password_fejl">*</span><br>
+        <input type="password" id="adgang2_validering" name="adgang2" placeholder="Gentag Adgangskode"size="50px" onfocus="validerAdgang2()" required><span id="password2_fejl">*</span><br>
 
-        <button class="submit" type="submit" name="opret">Opret Konto</button>
+        <button class="submit" type="submit" name="opret" id="opretKnap" onclick="valideretBesked()">Opret Konto</button>
 
-        <p><input type="checkbox" name="privacy" id="privat"><label for="privat">Jeg accepterer Klippekortets <span class="understreg">vilkår og betingelser</span> og <span class="understreg">Persondataforordningen</span></label</p>
+        <p><input type="checkbox" name="privacy" id="privat" required><label for="privat">Jeg accepterer Klippekortets <span class="understreg">vilkår og betingelser</span> og <span class="understreg">Persondataforordningen</span></label</p>
       </form>
 
       </main>
