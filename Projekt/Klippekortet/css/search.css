@@ -649,6 +649,149 @@ figcaption{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Eksklusivt booking1.html css */
+
+
+
+.kobListe p {
+	width: 85px;
+}
+
+.kobListe a {
+	color: green;
+	width: 30px;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.kob {
+	border-radius: 4px;
+	padding: 3px;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	border: solid 1px #707070;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-top: 20px;'
+	appearance: none;
+	width: 223px;
+	height: 38px;
+	align-items: center;
+}
+
+.kob p:nth-child(2) {
+	text-align: right;
+}
+
+.kob p:nth-child(4) {
+	float: right;
+	position: absolute;
+	width: 218px;
+	text-align: right;
+	margin-top: 60px;
+	font-size: 12px;
+}
+
+.kob p:nth-child(4)::after {
+	clear: both;
+}
+
+.kobContainer {
+	display:flex;
+	flex-direction: row;
+}
+
+.pricetable {
+	padding-bottom: 60px;
+}
+.pricetable .menu a {
+	float: right;
+	bottom: 60px;
+	margin-left: 565px;
+	position: absolute;
+
+}
+
+.behandlingsBox {
+	display:flex;
+	flex-direction: column;
+}
+
+.behandlingsBox1 {
+	display:flex;
+}
+
+.imgContainer {
+	display: flex;
+	flex-direction: row;
+	float: left;
+	align-items: center;
+}
+
+.BehandlingsListe {
+	position: absolute;
+	margin-left: 255px;
+	margin-top: -60px;
+}
+
+.BehandlingsListe> p:nth-child(1) {
+	color: #af8447;
+	font-size: 20px;
+}
+
+.kryds {
+	height: 20px;
+	width: 20px;
+	margin-left: 50px;
+}
+
+.behandlinsListeContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+}
+
+.behandlinsListeContainer p {
+	width: 80px;
+}
+
+.totalPris {
+	position: absolute;
+	margin-left: 595px;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.totalPris p:nth-child(1) {
+	color: #af8447;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Eksklusivt booking3.html css */
 
 .form-wrapper{
