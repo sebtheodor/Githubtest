@@ -62,65 +62,68 @@
 		</section>
 
 		<div class="flex jcsb">
-			<section class="content-box" id="frisoer">
-				<div class="price-menu flex jcsb">
-					<div class="frisoer">
-						<a data-articleid="1" href="">Lars</a>
-						<a href="">Karl</a>
-						<a href="">Katrine</a>
+			<section class="content-box">
+				<div class="pricetable flex jcsb">
+					<div class="form-wrapper">
+						<div class="info-wrap flex jcsb">
+							<div>
+								<p>Frisør Salon: Slikhaar</p>
+								<p>Frisørens navn: Lars</p>
+								<p>Tid: 12/03/21 - kl. 09:00</p>
+							</div>
+							<div>
+								<span>Behandlinger:</span>
+								<ul>
+									<li>Herreklip</li>
+									<li>Hårfarve</li>
+									<li>Harbering</li>
+								</ul>
+							</div>
+						</div>
+
+						<form action="" class="pay-form" autocomplete="on">
+							<h3>Person-oplysninger</h3>
+							<input type="text" placeholder="For- og Efternavn" id="name" required="" class="full-input">
+							<div class="flex jcsb">
+								<input type="tel" placeholder="Telefon nr:" required id="tel" class="split-input1">
+								<input type="number" min="0" max="110" required placeholder="Alder" id="" class="split-input2">
+							</div>
+							<input type="email" required placeholder="Email" id="email"  class="full-input">
+
+							<h3>Kort-oplysninger</h3>
+							<div class="flex jcsb">
+								<input type="text" placeholder="Kortholderens navn" class="split-input1" id="cc-name">
+								<input type="text" placeholder="Udløbsdato" id="cc-exp" class="split-input2">
+							</div>
+							<div class="flex jcsb">
+								<input id="cc-number" type="text" placeholder="Kortnummer" class="split-input1">
+								<input type="number" placeholder="CVC" class="split-input2">
+							</div>
+							<input type="submit" class="submit" value="Betal">
+						</form>
 					</div>
-					<a href="" class="find-os">Find os</a>
-				</div>
-
-				<div class="pricetable">
-					<div class="menu flex jcsb">
-						<select name="kategori" id="kategori">
-							<option value="Herre">Herreklip</option>
-							<option value="Dame">Dameklip</option>
-							<option value="Barn">Børneklip</option>
-						</select>
-						<span><a onclick="bookTime()">Book nu</a></span>
-					</div>
-					<div class="prices">
-						<div class="price flex jcsb">
-							<p>Klipning</p>
-							<p>300kr.-</p>
-						</div>
-
-						<div class="price flex jcsb">
-							<p>Barbering</p>
-							<p>200kr.-</p>
-						</div>
-
-						<div class="price flex jcsb">
-							<p>Hårvask</p>
-							<p>50kr.-</p>
-						</div>
-
-						<div class="price flex jcsb">
-							<p>Hårfarve</p>
-							<p>400kr.-</p>
+					<div class="SoMe-login">
+						<a href=""><img src="img/icons/Facebook-SoMe-login.jpg" alt="">Log ind med Facebook</a> 
+						<a href=""><img src="img/icons/goggle.png">Log ind med Google</a>
+						<hr>
+						<a href="">Log ind med profil</a>
+						<div class="checkout">
+							<p>Barbering: 200kr.-</p>
+							<p>Hårfarve: 400kr.-</p>
+							<p>Herreklip:  300kr.-</p>
+							<hr>
+							<h2>900 kr.-</h2>
+							<hr class="sum-payout">
+							<p>Heraf udgør moms 180kr.- af det totale beløb</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
 
+
 			<aside class="info-wrapper">
-				<div class="about-frisoer flex">
-					<figure class=""><img src="img/lars.jpg" alt=""></figure>
-					<figcaption class="caption-1">
-						Mit navn er Lars og har jeg arbejdet som frisør i 8 år. 
-						Min drivkraft er at skabe en flot frisure der passer 
-						til netop dig samt gøre mine kunder glade.
-					</figcaption>
-				</div>
-				<figcaption class="caption-2">
-					8 år med saks i hånden. <br>
-					Uddannet frisør hos, odense-frisørskole. <br>
-					Medarbejder hos Beauty Coiffure i Århus som frisør.
-				</figcaption>
-				<div class="timetable">
+				<div class="timetable-alt">
 					<h3 class="fw600">Åbningstider:</h3>
 					<div class="table">
 						<span class="flex jcsb">
