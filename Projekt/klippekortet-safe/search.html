@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/search.css">
+	<script src="https://kit.fontawesome.com/9464e3997a.js" crossorigin="anonymous" defer></script>
+	<script src="js/open.js" type="text/javascript" defer> </script>
+	<title>Klippekortet | Dit hår, din stil</title>
+</head>
+<body>
+	<header>
+		<nav class="wrapper">
+			<div class="logo">
+				<a href="index.html"><img src="img/alt3-logo-med-text.png" alt="" id="logo"></a>
+			</div>
+			<div class="search">
+				<form action="search.html" onsubmit="return validateForm()" method="post" name="searchForm" class="search">
+					<input type="text" placeholder="Indtast postnummer..." id="fname" name="fname" required>
+					<button type="submit" class="btn">
+						<i class="fas fa-search"></i>
+					</button>
+				</form>
+			</div>
+			<div class="log-in">
+				<a href="log-in.html">Log ind</a>
+			</div>
+			<div class="log-out">
+				<a href="opret.html">Opret bruger</a>
+			</div>
+		</nav>
+		<div class="wrapper">
+			<p class="crumb"><a href="index.html">Forside</a> / <span class="fw600">Søg </span></p>
+		</div>
+	</header>
+	
+	<main class="flex wrapper">
+		<aside>
+			<h2>Kategorier</h2>
+			<div class="sorting">
+				<ul>
+					<li><input type="checkbox" id="herre"> <label for="herre">Herreklip</label></li>
+					<li><input type="checkbox" id="barbering"> <label for="barbering">Barbering</label></li>
+					<li><input type="checkbox" id="dame"> <label for="dame">Dameklip</label></li>
+					<li><input type="checkbox" id="farve"> <label for="farve">Hårfarve</label></li>
+					<li><input type="checkbox" id="barn"> <label for="barn">Børneklip</label></li>
+					<li><input type="checkbox" id="afbud"> <label for="afbud">Herreklip</label></li>
+				</ul>
+			</div>
+
+			<h2>Sortér</h2>
+			<div class="sorting">
+				<ul>
+					<li><input type="checkbox" id="pris" onclick="sortList()"> <label for="pris">Pris</label></li>
+					<li><input type="checkbox" id="lokalition"> <label for="lokalition">Lokalition</label></li>
+					<li><input type="checkbox" id="type"> <label for="type">Drop in</label></li>
+				</ul>
+			</div>
+		</aside>
+
+		<ul class="searched-items" id="items">
+			<li class="searched-item">
+				<img src="img/slikhaar-logo.jpg" alt="">
+				<div class="item-info">
+					<h2 class="salon-name">Slikhaar</h2>
+					<h3>Haarsliksvej 87</h3>
+					<p class="about-title">Lidt om butikken:</p>
+					<p class="about-desc">
+						Frisør Slikhaar har eksisteret siden 2013 og 
+						har været placeret i Haarsliksvej i Odense 
+						siden november 2017. Søger du en god frisør i 
+						Odense, hvor servicen er helt i top, så er frisør...
+					</p>
+				</div>
+				<div class="flex-col">
+					<div class="special-info1">
+						<p>Kategori: Herreklip</p>
+						<p><span class="pris">240</span>kr.-</p>
+					</div>
+					<p class="open">
+						Åben nu: <br>
+						09:00 - 17:00 
+					</p>
+					<a href="item.html">Find tid</a>
+				</div>
+			</div>
+
+
+
+			<li class="searched-item">
+				<img src="img/beauty-coiffure-small.jpg" alt="">
+				<div class="item-info">
+					<h2 class="salon-name">Beauty Coiffure</h2>
+					<h3>Fritzgade 3</h3>
+					<p class="about-title">Lidt om butikken:</p>
+					<p class="about-desc">
+						Frisør Slikhaar har eksisteret siden 2013 og
+						har været placeret i Haarsliksvej i Odense 
+						siden november 2017. Søger du en god frisør i 
+						Odense, hvor servicen er helt i top, så er frisør...
+					</p>
+				</div>
+				<div class="flex-col">
+					<!--<p class="special-info2">
+						Afbudstid tilgængelig <br>
+						Karl: 09:00 - 09:40
+					</p> -->
+					<p class="open">
+						Åben nu: <br>
+						09:00 - 17:00 
+					</p>
+					<a href="">Find tid</a>
+				</div>
+			</div>
+
+
+
+			<li class="searched-item">
+				<img src="img/aAnsigt-small.jpg" alt="">
+				<div class="item-info">
+					<h2 class="salon-name">Salon aAnsigt</h2>
+					<h3>Odensevej 27</h3>
+					<p class="about-title">Lidt om butikken:</p>
+					<p class="about-desc">
+						Vi er et ungt team af 5 frisører. Ejerne Katja
+						og Sanne, Julie og Camilla som er  frisør- assistener
+						og Martina, som er elev. Vi
+						går meget op i, at hverdagen i salonen, er nærværende og...
+
+					</p>
+				</div>
+				<div class="flex-col">
+
+					<p class="open">
+						Åben nu: <br>
+						09:00 - 17:00 
+					</p>
+					<a href="">Find tid</a>
+				</div>
+			</div>
+
+
+
+			<li class="searched-item">
+				<img src="img/carlsens-small.jpg" alt="">
+				<div class="item-info">
+					<h2 class="salon-name">Carlsen's</h2>
+					<h3>Mathiasvej 29</h3>
+					<p class="about-title">Lidt om butikken:</p>
+					<p class="about-desc">
+						Vi har skabt en salon, hvor du kan slappe af 
+						med kaffe, te, latte eller vand og bladre i 
+						alverdens magasiner og blade, mens vi tager 
+						os af din frisure. Når der skal ske noget nyt...
+					</p>
+				</div>
+				<div class="flex-col">
+					
+					<p class="open">
+						Åben nu: <br>
+						09:00 - 17:00 
+					</p>
+					<a href="">Find tid</a>
+				</div>
+			</div>
+		</article>
+
+
+
+	</main>
+
+	<footer>
+		<div class="wrapper flex jcsb">
+			<div class="kontakt">
+				<h3>Kontakt</h3>
+				<a>Kontakt os</a> <br>
+				<a href="about.html">Hvem er vi</a>
+			</div>
+
+
+			<div class="find-by">
+				<h3>Find din by...</h3>
+				<a>København</a>  <a>Århus</a> <br>
+				<a>Odense</a>  <a>Aalborg</a> <br>
+				<a>Esbjerg</a>  <a>Randers</a> <br>
+				<a>Kolding</a>  <a>Horsens</a>
+				
+
+			</div>
+
+			<div class="partners-terms-wrapper">
+				<div class="partners">
+					<h3>Partnere</h3>
+					<a>Tilmeld din salon</a>
+				</div>
+
+				<div class="terms">
+					<h3>Vilkår</h3>
+					<a>Vilkår og betingelser</a> <br>
+					<a>Cookie-/Fortrolighedspolitik</a>
+				</div>
+			</div>
+
+
+			<div class="follow">
+				<h3>Følg os</h3>
+				<a href=""><i class="fab fa-linkedin"></i></a> <br>
+				<a href=""><i class="fab fa-instagram-square"></i></a> <br>
+				<a href=""><i class="fab fa-facebook-square"></i></a>
+			</div>
+		</div>
+	</footer>
+
+
+
+</body>
+</html>

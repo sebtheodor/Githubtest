@@ -1,0 +1,245 @@
+*, * * {
+	font-family: "montserrat";
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+	margin: auto;
+	scroll-behavior: smooth;
+}
+
+header {
+	position: relative;
+	z-index: 1;
+}
+
+body{
+	max-width: 1100px;
+	height: 100%;
+}
+
+.full-width{
+	width: 100%;
+}
+
+.full-height{
+	height: 100%;
+}
+
+nav{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	box-shadow: 1px 1px 2px #aaa;
+}
+
+ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 75px;
+	margin-right: 120px;
+	background-color: #fff;
+	position: relative;
+}
+
+li a {
+	margin-top: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "montserrat";
+	padding: 10px 20px;
+	color: #777;
+	font-size: 18px;
+}
+
+section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100%;
+	width: 100%;
+	z-index: -1;
+	padding-top: 100px;
+}
+
+article{
+	font-family: "montserrat";
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+aside{
+	width: 400px;
+}
+
+h2{
+	font-family: "montserrat";
+	font-size: 28px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	width: 300px;
+}
+
+hr{
+	height: 2px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+footer{
+	font-family: "montserrat";
+	text-align: center;
+	margin-top: 100px;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 600px;
+}
+
+.code{
+	display: flex;
+
+	width: 400px;
+	background-color: #eee;
+	min-height: 70px;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+.logo-img{
+	display: block;
+	height: 70px;
+	background-image: url(../img/simple-logo.png);
+	background-repeat: no-repeat;
+}
+
+.logo-img-text{
+	display: block;
+	height: 70px;
+	background-image: url(../img/logo-med-text.png);
+	background-repeat: no-repeat;
+}
+
+.farve1{
+	height: 70px;
+	width: 400px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+
+	background-color: #000;
+}
+
+.farve2{
+	height: 70px;
+	width: 400px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+
+	background: #747474;
+}
+
+.farve3{
+	height: 70px;
+	width: 400px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+
+	background: #EBEBEB;
+}
+
+.farve4{
+	height: 70px;
+	width: 400px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+
+	background: #AF8447;
+}
+
+.icon{
+	font-size: 70px;
+	height: 70px;
+	width: 70px;
+	margin-bottom: 20px;
+}
+
+
+
+.flex{
+	display: flex;
+}
+
+.center{
+	align-items: center;
+	justify-content: center;
+}
+
+.hcenter{
+	justify-content: center;
+}
+
+.vcenter{
+	align-items: center;
+}
+
+.anButton{
+	background-color: #AF8447;
+	height: 30px;
+	width: 150px;
+	border: black;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+
+.meButton{
+	background-color: #AF8447;
+	height: 50px;
+	width: 100px;
+	border: black;
+	margin-bottom: 30px;
+}
+
+.sButton{
+	background-color: #AF8447;
+	height: 50px;
+	width: 50px;
+	border: black;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+
+.besButton{
+	background-color: #AF8447;
+	height: 70px;
+	width: 130px;
+	border: black;
+	margin-bottom: 30px;
+	border-radius: 30px;
+}
+
+.soButton{
+	background-color: #AF8447;
+	height: 30px;
+	width: 100px;
+	border: black;
+	margin-bottom: 30px;
+	border-radius: 30px;
+}
+
+.beButton{
+	background-color: #AF8447;
+	height: 100px;
+	width: 200px;
+	border: black;
+	margin-bottom: 30px;
+	border-radius: 30px;
+}
