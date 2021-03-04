@@ -172,10 +172,41 @@ div.beskrivelse{
 
 .salon{
   width: 100%;
-  height: 350px;
+  height: 280px;
   position: relative;
   float: left;
-  background-color: blue;
+}
+
+h2{
+  position: relative;
+  right: 10%;
+  color: #AF8447;
+  font-size: 34px;
+  left: 1%;
+}
+
+.choice1{
+  margin: 10px;
+  float: left;
+  left: 12%;
+  width: 278px;
+  position: relative;
+}
+
+.salon2{
+  width: 100%;
+  height: 286px;
+  position: relative;
+  float: left;
+}
+
+.choice2{
+  margin: 10px;
+  float: left;
+  left: 11%;
+  top: 5%;
+  width: 209px;
+  position: relative;
 }
 
 
