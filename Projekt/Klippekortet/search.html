@@ -16,22 +16,22 @@
 				<a href="index.html"><img src="img/alt3-logo-med-text.png" alt="" id="logo"></a>
 			</div>
 			<div class="search">
-				<form action="" class="search">
-					<input type="text" id="search" placeholder="Indtast din adresse...">
+				<form action="search.html" onsubmit="return validateForm()" method="post" name="searchForm" class="search">
+					<input type="text" placeholder="Indtast postnummer..." id="fname" name="fname" required>
 					<button type="submit" class="btn">
 						<i class="fas fa-search"></i>
 					</button>
 				</form>
 			</div>
 			<div class="log-in">
-				<a href="log-ind.html">Log ind</a>
+				<a href="log-in.html">Log ind</a>
 			</div>
 			<div class="log-out">
 				<a href="opret.html">Opret bruger</a>
 			</div>
 		</nav>
 		<div class="wrapper">
-			<p class="crumb">Forside / <span class="fw600">Søg </span></p>
+			<p class="crumb"><a href="index.html">Forside</a> / <span class="fw600">Søg </span></p>
 		</div>
 	</header>
 	
